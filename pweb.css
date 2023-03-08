@@ -1,0 +1,29 @@
+.items {
+    text-align: center;
+}
+.wordshadow {
+
+}
+
+section {
+    display: grid;
+    grid-template-columns: 33% 30% 30%;
+    grid-gap: 10px;
+    justify-content: center;
+    height:50vh;
+    padding: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    
+
+    
+   
+}
+section div {
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey 
+}
+
+    
+
