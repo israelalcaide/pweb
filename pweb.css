@@ -1,29 +1,59 @@
 .items {
     text-align: center;
-}
-.wordshadow {
-
-}
-
+ }
 section {
     display: grid;
-    grid-template-columns: 33% 30% 30%;
-    grid-gap: 10px;
-    justify-content: center;
-    height:50vh;
-    padding: 1em;
-    margin-left: 20%;
-    margin-right: 20%;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: space-around;
+    height: 100%;
+    width: 60%;
+    padding: 5% 20%;
     text-align: center;
-    
 
-    
-   
 }
+
 section div {
-    border-right: 1px solid grey;
-    border-bottom: 1px solid grey 
+
+    border: 1px solid rgb(221, 218, 218);
+    padding: 35px 20px;
+
 }
 
-    
+.boxone,
+.boxtwo,
+.boxthree {
+    border-top: none;
+}
 
+.boxthree,
+.boxsix,
+.boxnine,
+.boxtwelve {
+    border-right: none;
+}
+
+.boxone,
+.boxfour,
+.boxseven,
+.boxten {
+    border-left: none;
+}
+
+.boxten,
+.boxeleven,
+.boxtwelve {
+    border-bottom: none;
+}
+
+section i {
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 100px;
+}
+
+
+.linea hr {
+    border: none;
+    border-top: 1px solid rgb(214, 214, 214);
+    margin: 20px 0;
+}
